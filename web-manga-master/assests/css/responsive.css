@@ -1,0 +1,149 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .wide {
+        width: 750px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .wide {
+        width: 970px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .wide {
+        width: 1030px;
+    }
+}
+
+@media (max-width: 1119px) {
+    .main__list > li:last-child {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav__search {
+        width: 315px;
+    }
+
+    .auth {
+        padding: 3px 6px;
+    }
+
+    .main__list > li:nth-last-child(-n+3) {
+        display: none;
+    }
+
+    .fb-page {
+        overflow: hidden;
+        width: 230;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .main {
+        margin-top: 50px;
+    }
+
+    .nav__search {
+        display: none;
+    }
+
+    .nav__auth {
+        display: none;
+    }
+
+    .header__nav {
+        justify-content: unset;
+    }
+    
+    .nav__noitification {
+        margin-left: 27px;
+    }
+
+    .noitification__content {
+        left: 0;
+        right: unset;
+    }
+
+    .nav__menu {
+        display: flex;
+    }
+
+    .header__nav-category {
+        display: none;
+    }
+
+    .owl-prev {
+        left: 0;
+    }
+    
+    .owl-next {
+        right: 0;
+    }
+
+    .footer__category {
+        margin-top: 15px;
+    }
+
+    .footer__name {
+        display: block;
+        padding-top: 10px;
+        border-top: 1px solid #ddd;
+    }
+
+    .sidebar {
+        display: block;
+    }
+}
+
+@media (max-width: 560px) {
+    .noitification__content {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: unset;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 360px) {
+    .comic__card {
+        display: flex;
+    }
+
+    .card__image {
+        max-width: 42%;
+        height: 125px;
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .card__image__view span {
+        text-align: justify;
+        display: block;
+        font-size: 1.1rem;
+    }
+
+    .i-comic__nav__comment-content-title p {
+        margin-bottom: 5px;
+    }
+}

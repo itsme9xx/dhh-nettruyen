@@ -1,0 +1,549 @@
+<!DOCTYPE html c-12>
+<html c-12 lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="./assests/css/loading.css"> 
+    <link rel="stylesheet" href="./assests/font/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="./assests/css/main.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/cssi.css">
+    <link rel="stylesheet" href="./assests/css/gird.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
+    <title>Web Manga</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="wide">
+                <div class="header__nav">
+                    <div class="nav__logo">
+                        <a href="index.html">
+                            <img src="./assests/image/logo-nettruyen.png" alt="">
+                        </a>
+                    </div>
+                    <div class="nav__search">
+                            <div class="search__input">
+                                <input type="text" placeholder="Tìm truyện...">
+                                <i class="fas fa-search"></i>
+                            </div>
+                    </div>
+                    <div class="nav__noitification">
+                            <a class="noitification__icon">
+                                <i class="fa fa-comment"></i>
+                            </a>
+                            <div class="noitification__content disable">
+                                <span class="content__name">Thông báo</span>
+                                <div class="content__notify">
+                                    <p class="content__desc">Vui lòng đăng nhập để sử dụng chức năng này</p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="nav__auth">
+                            <div class="auth auth__log">
+                                <a href="">Đăng nhập</a>
+                            </div>
+                            <div class="auth auth__res auth__res--active">
+                                <a href="">Đăng ký</a>
+                            </div>
+                    </div>
+                    <div class="nav__menu">
+                        <label for="cb-sidebar" class="lb-sidebar">
+                            <i class="fas fa-search"></i>
+                        </label>
+                        <div class="menu__icon">
+                            <label for="cb-sidebar" class="lb-sidebar">
+                                <i class="open fas fa-bars"></i>
+                                <i class="close fas fa-times disable"></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="header__nav-category">
+            <div class="wide">
+                <ul class="main__list">
+                    <li class="main__item--active">
+                        <a href="index.html">
+                            <span><i class="fas fa-home"></i></span>
+                        </a>
+                    </li>
+                    <li><span>Hot</span></li>
+                    <li><span>Theo dõi</span></li>
+                    <li><span>Lịch sử</span></li>
+                    <li class="dropdown">
+                        <span>
+                            Thể loại
+                            <i class="fa fa-caret-down"></i>
+                        </span> 
+                        <div class="dropdown__list">
+                            <div class="no-gutters row">
+                                <div class="col l-3">
+                                    <ul class="dropdown__item">
+                                        <li><strong>Tất cả</strong></li>
+                                        <li>Action</li>
+                                        <li>Adult</li>
+                                        <li>Adventure</li>
+                                        <li>Anime</li>
+                                        <li>Chuyển sinh</li>
+                                        <li>Comedy</li>
+                                        <li>Comic</li>
+                                        <li>Cooking</li>
+                                        <li><strong>Cổ đại</strong></li>
+                                        <li>Doujinshi</li>
+                                        <li>Drama</li>
+                                        <li><strong>Đam mỹ</strong></li>
+                                    </ul>
+                                </div>
+                                <div class="col l-3">
+                                    <ul class="dropdown__item">
+                                        <li>Ecchi</li>
+                                        <li>Fantasy</li>
+                                        <li>Gender bender</li>
+                                        <li>Harem</li>
+                                        <li>Historical</li>
+                                        <li>Horor</li>
+                                        <li>Josei</li>
+                                        <li>Live action</li>
+                                        <li>Manga</li>
+                                        <li><strong>Mahua</strong></li>
+                                        <li>Manhwa</li>
+                                        <li>Martial Arts</li>
+                                        <li>Mature</li>
+                                    </ul>
+                                </div>
+                                <div class="col l-3">
+                                    <ul class="dropdown__item">
+                                        <li>Mecha</li>
+                                        <li>Mystery</li>
+                                        <li><strong>Ngôn tình</strong></li>
+                                        <li>One shot</li>
+                                        <li>Psychological</li>
+                                        <li><strong>Romance</strong></li>
+                                        <li>School life</li>
+                                        <li>Sci-fi</li>
+                                        <li>Seinen</li>
+                                        <li>Shoujo</li>
+                                        <li>Shoujo ai</li>
+                                        <li>Shounen</li>
+                                        <li>Shounen ai</li>
+                                    </ul>
+                                </div>
+                                <div class="col l-3">
+                                    <ul class="dropdown__item">
+                                        <li>Slice of life</li>
+                                        <li>Smut</li>
+                                        <li>Soft yaoi</li>
+                                        <li>Soft yuri</li>
+                                        <li>Sports</li>
+                                        <li>Supernatural</li>
+                                        <li>Thiếu nhi</li>
+                                        <li>Tragedy</li>
+                                        <li>Trinh thám</li>
+                                        <li>Truyện scan</li>
+                                        <li>Truyện màu</li>
+                                        <li>Webtoon</li>
+                                        <li><strong>Xuyên không</strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <span>
+                            Xếp hạng
+                            <i class="fas fa-sort"></i>
+                        </span> 
+                        <div class="dropdown__list dropdown__rank">
+                            <div class="rank__list">
+                                <div class="rank__item"><i class="fa fa-eye"></i>Top all</div>
+                                <div class="rank__item"><i class="fa fa-eye"></i>Top tháng</div>
+                                <div class="rank__item"><i class="fa fa-eye"></i>Top tuần</div>
+                                <div class="rank__item"><i class="fa fa-eye"></i>Top ngày</div>
+                            </div>
+                            <div class="rank__list">
+                                <div class="rank__item"><strong><i class="fa fa-signal"></i>Truyện full</strong></div>
+                                <div class="rank__item"><i class="far fa-thumbs-up"></i>Yêu thích</div>
+                                <div class="rank__item"><i class="fas fa-sync-alt"></i>Mới cập nhật</div>
+                                <div class="rank__item"><i class="fas fa-cloud-upload-alt"></i>Truyện mới</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><span>Tìm truyện</span></li>
+                    <li><span>Con gái</span></li>
+                    <li><span>Con trai</span></li>
+                    <li><span>Group</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="wide">
+                <!-- Content -->
+                <div class="i-content-comic">
+                    <div class="row">
+                        <div class="col l-8 m-12 t-12 tm-12 c-12">
+                            <div class="i-comic-title">
+                                <p>Trang chủ</p><i class="fas fa-angle-double-right"></i>
+                                <p>Thể loại</p> <i class="fas fa-angle-double-right"></i>
+                                <p>Vua thăng cấp</p>
+                            </div>
+                            <div class="i-comic-name">
+                                <h1 class="i-name">Vua thăng cấp</h1>
+                                <div class="i-time"><p>[Cập nhật lúc: 17:10 07/08/2021]</p></div>
+                            </div>
+                            <div class="row i-comic-card">
+                                <div class="col l-4 l-4 m-4 t-4 tm-12 c-12">
+                                    <img src="./assests/image/hinh-anh-hot-girl-xinh-han-quoc-wap102-com (1).jpg" alt="" class="i-img">
+                                </div>
+                                <div class="col l-8 l-8 m-8 t-8 tm-12 c-12">
+                                    <ul class="i-comic-card__list">
+                                        <li>
+                                            <div class="i-comic-infor">
+                                                <i class="fas fa-plus"></i>
+                                                Tên khác
+                                            </div>
+                                            <div class="i-comic-desc">
+                                                <p class="i-name">Thăng Cấp Trở Lại</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="i-comic-infor">
+                                                <i class="fas fa-user"></i>
+                                                Tác giả
+                                            </div>
+                                            <div class="i-comic-desc">
+                                                <p>Đang cập nhật</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="i-comic-infor">
+                                                <i class="fas fa-rss"></i>
+                                                Tình trạng
+                                            </div>
+                                            <div class="i-comic-desc">
+                                                <p>Đang tiến hành</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="i-comic-infor">
+                                                <i class="fas fa-tags"></i>
+                                                Thể loại
+                                            </div>
+                                            <div class="i-comic-desc i-desc-category">
+                                                <p>Action</p>-<p>Adventure</p>-
+                                                <p>Comedy</p>-<p>Fantasy</p>-
+                                                <p>Manhua</p>-<p>Manhwa</p>-
+                                                <p>Martial Ats</p>-<p>Mystery</p>-
+                                                <p>Romance</p>-<p>Shounen</p>
+                                            </div>
+                                        </li>
+                                        <li> 
+                                            <div class="i-comic-infor">
+                                                <i class="far fa-eye"></i>
+                                                Lượt xem
+                                            </div>
+                                            <div class="i-comic-desc">
+                                                <p class="i-viewer">14.960.505</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="i-comic-detail">
+                                        <p class="i-name">Vua Thăng Cấp</p>
+                                        <span>Xếp hạng: 4/5 - 16783 Lượt đánh giá.</span>
+                                    </div>
+                                    <div class="i-comic-rate">
+                                        <div class="rate-star">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <div class="star-modify">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half"></i>
+                                            </div>
+                                        </div>
+                                        <div class="rate-like">
+                                            <div class="i-btn btn-like"><i class="fas fa-thumbs-up"></i>Like</div>
+                                            <div class="i-btn btn-share"><i class="fas fa-share"></i>Share</div>
+                                        </div>
+                                    </div>
+                                    <div class="i-comic-follow">
+                                        <div class="i-btn btn-follow">
+                                            <i class="fas fa-heart"></i>
+                                            Theo dõi
+                                        </div>
+                                        <p><span>84.599</span>Người Đã Theo Dõi</p>
+                                    </div>
+                                    <div class="i-comic-read">
+                                        <div class="i-btn btn-read">Đọc từ đầu</div>
+                                        <div class="i-btn btn-newest">Đọc mới nhất</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="i-comic-content">
+                                <h1 class="i-comic-content__title">
+                                    <i class="far fa-file-alt"></i>
+                                    Nội dung
+                                </h1>
+                                <div class="i-comic-content__desc short-text">
+                                    <p>Võ đạo đỉnh phong, là cô độc, là tịch mịch, là dài đằng đẵng cầu tác, là cao xử bất thắng hàn
+                                        <br>
+                                        Phát triển trong nghịch cảnh, cầu sinh nơi tuyệt địa, bất khuất không buông tha, mới có thể có thể phá võ chi cực đạo.
+                                        <br>
+                                        Lăng Tiêu các thí luyện đệ tử kiêm quét rác gã sai vặt Dương Khai ngẫu lấy được một bản vô tự hắc thư, từ nay về sau đạp vào dài đằng đẵng võ đạo.
+                                    </p>
+                                </div>
+                                <div class="i-more">
+                                    <p>Xem thêm</p>
+                                </div>
+                            </div>
+                            <div class="i-comic-chapters">
+                                <h1 class="i-comic-content__title">
+                                    <i class="far fa-file-alt"></i>
+                                    Danh sách chương
+                                </h1>
+                                <div class="i-comic-chapter show-chapter">
+                                    <ul>
+                                        <li class="i-chapter__title">
+                                            <p>Số chương</p>
+                                            <p>Cập nhật</p>
+                                            <p>Lượt xem</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="i-chapter-more">
+                                    <p>Xem thêm</p>
+                                </div>
+                            </div>
+                            <div class="i-comic__nav__comment">
+                                <div class="i-comic__nav__comment__tab">
+                                    <label for="i-rb-1">
+                                        <div class="tab__item i-tab__page tab__item--active">
+                                            <i class="fas fa-comments"></i>
+                                            Nettruyen
+                                            (<span class="i-comment-count">403</span>)
+                                        </div>
+                                    </label>
+                                    <label for="i-rb-2">
+                                        <div class="tab__item i-tab__facebook">
+                                            <i class="fab fa-facebook"></i>
+                                            Favebook
+                                            (<span class="i-comment-count">100</span>)
+                                        </div>
+                                    </label>
+                                </div>
+                                <input type="radio" name="i-rb" id="i-rb-1" checked>
+                                <div class="i-comic__nav__comment-content">
+                                    <div class="i-comic__nav__comment-content-title">
+                                        <p>Like
+                                            <span>Page</span>
+                                            để ủng hộ NetTruyen nhé
+                                        </p>
+                                        <div class="rate-like">
+                                            <div class="i-btn btn-like"><i class="fas fa-thumbs-up"></i>Like</div>
+                                            <div class="i-btn btn-share"><i class="fas fa-share"></i>Share</div>
+                                        </div>
+                                    </div>
+                                    <div class="i-comic__nav__comment-input">
+                                        <textarea rows="3" name="comment" class="text-area" placeholder="Mời bạn thảo luận, vui lòng nhập Tiếng Việt có dấu."></textarea>
+                                        <div class="i-btn submit-comment">Đăng</div>
+                                    </div>
+                                    <div class="i-comic__nav__comment-main">
+                                        <ul class="i-comment-card">
+                                            <li>
+                                                <div class="i-comment-img">
+                                                    <img src="./assests/image/hinh-anh-hot-girl-xinh-han-quoc-wap102-com (1).jpg" alt="">
+                                                    <span class="answer">Trả lời</span>
+                                                </div>
+                                                <div class="i-comment-infor">
+                                                    <p class="comic-infor__name">Cảnh Nguyễn</p>
+                                                    <p class="comic-member">Thành viên</p>
+                                                    <span class="comic-infor__time"><i class="far fa-clock"></i> 3 giây trước</span>
+                                                    <span class="comic-read__chapter">Chapter 369</span>
+                                                    <p class="comment">Đu, chỉ số nó cao chứ suy nghĩ ngu vcl ra ấy chứ :))</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="comic__page">
+                                            <li class="comic__item comic__item--active">1</li>
+                                            <li class="comic__item">2</li>
+                                            <li class="comic__item">3</li>
+                                            <li class="comic__item">4</li>
+                                            <li class="comic__item">5</li>
+                                            <li class="comic__item">6</li>
+                                            <li class="comic__item">7</li>
+                                            <li class="comic__item">8</li>
+                                            <li class="comic__item">9</li>
+                                            <li class="comic__item">10</li>
+                                            <li class="comic__item"><i class="fas fa-angle-right"></i></li>
+                                            <li class="comic__item"><i class="fas fa-angle-double-right"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <input type="radio" name="i-rb" id="i-rb-2">
+                                <div class="i-comic__nav__comment-facebook">
+                                    <p>Lười làm quá <i class="far fa-grin-squint"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 t-12 tm-12 c-12">
+                            <div class="comic__nav__tab">
+                                <div class="tab__item tab__item--active">Top tháng</div>
+                                <div class="tab__item">Top tuần</div>
+                                <div class="tab__item">Top ngày</div>
+                            </div>
+                            <div class="comic__nav__content">
+                                <div class="comic__nav__content__item">
+                                    <span>01</span>
+                                    <img src="./assests/image/hot-girl-waralee-ngot-hon-duong-trong-bo-anh-sun-set-anh-1.jpg" alt="">
+                                    <div class="comic__nav__content__item__caption">
+                                        <h3 class="comic-name">Huyền thoại tu la độc long</h3>
+                                        <div class="comic__detail">
+                                            <p class="chapter">Chapter 47</p>
+                                            <span><i class="fa fa-eye"></i>2.000.000</span>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="wide">
+                <div class="row">
+                    <div class="col l-4 m-4 c-12">
+                        <img src="./assests/image/logo-nettruyen.png" alt="">
+                        <div class="fb-page" data-href="https://www.facebook.com/nettruyen/" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nettruyen/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nettruyen/">NetTruyen.com - Truyện Tranh Online</a></blockquote></div>
+                        <p class="copy-right">Copyright © 2015 NetTruyen</p>
+                    </div>
+                    <div class="col l-8 m-8 c-12">
+                        <div class="footer__category">
+                            <h3 class="footer__name">Thể loại</h3>
+                            <ul class="footer__list">
+                                <li>Chuyển sinh</li>
+                                <li>đam mỹ</li>
+                                <li>Manga</li>
+                                <li>Manhua</li>
+                                <li>Manhwa</li>
+                                <li>Ngôn tình</li>
+                                <li>Romance</li>
+                                <li>Xuyên không</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- SideBar -->
+        <input type="checkbox" id="cb-sidebar" class="cb-sidebar">
+        <div class="sidebar">
+            <div class="nav__search">
+                <div class="search__input">
+                    <input type="text" placeholder="Tìm truyện...">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <ul class="sidebar__list">
+                <div class="sidebar__item sidebar__item--active">Trang chủ</div>
+                <div class="sidebar__item">Hot</div>
+                <div class="sidebar__item">Theo dõi</div>
+                <div class="sidebar__item">Lịch sử</div>
+                <div class="sidebar__item sidebar__dropdown">
+                    <label for="cb-dropdown">Thể loại<i class="fa fa-caret-down"></i></label>
+                    <input type="checkbox" id="cb-dropdown" class="cb-dropdown">
+                    <div class="sidebar__tiem__dropdown">
+                        <ul class="sidebar__item__dropdown__list">
+                            <li><strong>Tất cả</strong></li>
+                            <li>Action</li>
+                            <li>Adult</li>
+                            <li>Adventure</li>
+                            <li>Anime</li>
+                            <li>Chuyển sinh</li>
+                            <li>Comedy</li>
+                            <li>Comic</li>
+                            <li>Cooking</li>
+                            <li><strong>Cổ đại</strong></li>
+                            <li>Doujinshi</li>
+                            <li>Drama</li>
+                            <li><strong>Đam mỹ</strong></li>
+                        </ul>
+                        <ul class="sidebar__item__dropdown__list">
+                            <li>Ecchi</li>
+                            <li>Fantasy</li>
+                            <li>Gender bender</li>
+                            <li>Harem</li>
+                            <li>Historical</li>
+                            <li>Horor</li>
+                            <li>Josei</li>
+                            <li>Live action</li>
+                            <li>Manga</li>
+                            <li><strong>Mahua</strong></li>
+                            <li>Manhwa</li>
+                            <li>Martial Arts</li>
+                            <li>Mature</li>
+                        </ul>
+                        <ul class="sidebar__item__dropdown__list">
+                            <li>Mecha</li>
+                            <li>Mystery</li>
+                            <li><strong>Ngôn tình</strong></li>
+                            <li>One shot</li>
+                            <li>Psychological</li>
+                            <li><strong>Romance</strong></li>
+                            <li>School life</li>
+                            <li>Sci-fi</li>
+                            <li>Seinen</li>
+                            <li>Shoujo</li>
+                            <li>Shoujo ai</li>
+                            <li>Shounen</li>
+                            <li>Shounen ai</li>
+                        </ul>
+                        <ul class="sidebar__item__dropdown__list">
+                            <li>Slice of life</li>
+                            <li>Smut</li>
+                            <li>Soft yaoi</li>
+                            <li>Soft yuri</li>
+                            <li>Sports</li>
+                            <li>Supernatural</li>
+                            <li>Thiếu nhi</li>
+                            <li>Tragedy</li>
+                            <li>Trinh thám</li>
+                            <li>Truyện scan</li>
+                            <li>Truyện màu</li>
+                            <li>Webtoon</li>
+                            <li><strong>Xuyên không</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sidebar__item">Xếp hạng<i class="fas fa-sort"></i></div>
+                <div class="sidebar__item">Tìm truyện</div>
+                <div class="sidebar__item">Con gái</div>
+                <div class="sidebar__item">Con trai</div>
+                <div class="sidebar__item">Group</div>
+            </ul>
+            <div class="sidebar__auth">
+                <p>Đăng nhập</p>
+                <p>Đăng ký</p>
+            </div>
+        </div>
+        <!-- Button Scroll Top -->
+        <div class="scroll-top">
+            <i class="fas fa-angle-up"></i>
+        </div>
+    </div>
+    <!-- Loading -->
+    <!-- <span class="loading"></span> -->
+    <!-- Javascript -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0&appId=1182180498534286&autoLogAppEvents=1" nonce="uLbI1gNE"></script>
+    <script type="module" src="./assests/scripts/script.js"></script>
+    <script type="module" src="./assests/scripts/iscript.js"></script>
+</body>
+</html c-12>

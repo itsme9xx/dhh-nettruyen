@@ -1,0 +1,48 @@
+:root {
+    --whiteText: #fff;
+    --blackText: #000;
+    --subText: #333;
+    --category: #e74c3c;
+    --primaryBlue: #03f;
+    --chapter: #4e7af3;
+    --title: #2980b9;
+    --view: #c0c0c0;
+    --subView: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--blackText);
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+li, label {
+    cursor: pointer;
+}
+
+strong {
+    color: #e74c3c;
+}
+

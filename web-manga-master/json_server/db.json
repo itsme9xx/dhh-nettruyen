@@ -1,0 +1,151 @@
+{
+  "comic": [
+    {
+      "id": 1,
+      "name": "Tôi Thăng Cấp Một Mình Phần 2",
+      "chapter": "51",
+      "view": "25.993.982",
+      "urlImg": "http://st.imageinstant.net/data/comics/106/toi-thang-cap-mot-minh-2.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Vua thăng cấp",
+      "chapter": "93",
+      "view": "14.946.089",
+      "urlImg": "http://st.imageinstant.net/data/comics/95/vua-thang-cap.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Luân Hồi Ác Nhân",
+      "chapter": "75",
+      "view": "8.635.015",
+      "imgUrl": "http://st.imageinstant.net/data/comics/120/luan-hoi-ac-nhan.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Cậu Bé Của Thần Chết",
+      "chapter": "111",
+      "view": "8.260.466",
+      "imgUrl": "http://st.imageinstant.net/data/comics/39/cau-be-cua-than-chet.jpg"
+    },
+    {
+      "id": "5",
+      "name": "FFF-Class Trashero",
+      "chapter": "92",
+      "view": "9.406.348",
+      "imgUrl": "http://st.imageinstant.net/data/comics/118/fff-class-trashero.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Bạn Học Của Tôi Là Lính Đánh Thuê",
+      "chapter": "44",
+      "view": "7.778.143",
+      "imgUrl": "http://st.imageinstant.net/data/comics/220/ban-hoc-cua-toi-la-linh-danh-thue.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Tôi là người chơi leo tháp một mình",
+      "chapter": "70",
+      "view": "7.342.164",
+      "imgUrl": "http://st.imageinstant.net/data/comics/119/toi-la-nguoi-choi-leo-thap-mot-minh.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Bắc Kiếm Giang Hồ",
+      "chapter": "94",
+      "view": "7.097.067",
+      "imgUrl": "http://st.imageinstant.net/data/comics/47/bac-kiem-giang-ho.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Kẻ Bị Ruồng Bỏ",
+      "chapter": "69.7",
+      "view": "5.721.464",
+      "imgUrl": "http://st.imageinstant.net/data/comics/59/greatest-outcast.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Biên Niên Sử Của Thiên Quỷ",
+      "chapter": "151",
+      "view": "5.568.861",
+      "imgUrl": "http://st.imageinstant.net/data/comics/132/bien-nien-su-cua-thien-quy.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Sự ra đời của một anh hùng",
+      "chapter": "52",
+      "view": "5.266.748",
+      "imgUrl": "http://st.imageinstant.net/data/comics/240/su-ra-doi-cua-mot-anh-hung.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Ngã lão ma thần",
+      "chapter": "65",
+      "view": "5.196.518",
+      "imgUrl": "http://st.imageinstant.net/data/comics/55/nga-lao-ma-than.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Học Nhóm",
+      "chapter": "85",
+      "view": "4.342.904",
+      "imgUrl": "http://st.imageinstant.net/data/comics/134/hoc-nhom.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Phá Bỏ Giới Hạn",
+      "chapter": "42",
+      "view": " 3.291.743",
+      "imgUrl": "http://st.imageinstant.net/data/comics/239/pha-bo-gioi-han.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Bá Chủ Học Đường SS3",
+      "chapter": "33",
+      "view": "2.822.961",
+      "imgUrl": "http://www.nettruyenvip.com/truyen-tranh/ba-chu-hoc-duong-ss3-32606"
+    },
+    {
+      "id": "16",
+      "name": "Tam Tuyệt Tại Dị Giới",
+      "chapter": "102",
+      "view": "2.798.665",
+      "imgUrl": "http://st.imageinstant.net/data/comics/243/di-gioi-tam-tuyet-trinity-wonder.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Hồi ức Của Chiến Thần",
+      "chapter": "54",
+      "view": "2.366.366",
+      "imgUrl": "http://st.imageinstant.net/data/comics/73/hoi-uc-cua-chien-than.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Người máy hủy diệt",
+      "chapter": "147",
+      "view": "2.344.657",
+      "imgUrl": "http://st.imageinstant.net/data/comics/109/nano-list.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Sự Trở Lại Của Pháp Sư Cấp 8",
+      "chapter": "25",
+      "view": "2.064.671",
+      "imgUrl": "http://st.imageinstant.net/data/comics/230/su-tro-lai-cua-phap-su-cap-8.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Võ Đang Kỳ Hiệp",
+      "chapter": "40.2",
+      "view": "1.898.139",
+      "imgUrl": "http://st.imageinstant.net/data/comics/98/vo-dang-ky-hiep.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Lãng Tiên Kỳ Đàm",
+      "chapter": "34",
+      "view": "1.828.685",
+      "imgUrl": "http://st.imageinstant.net/data/comics/221/lang-tien-ky-dam.jpg"
+    }
+  ]
+}
