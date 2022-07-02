@@ -96,7 +96,7 @@ btnComment.onclick = () => {
             <span class="answer">Trả lời</span>
         </div>
         <div class="i-comment-infor">
-            <p class="comic-infor__name">Cảnh Nguyễn</p>
+            <p class="comic-infor__name">Hoàng Hải</p>
             <p class="comic-member">Thành viên</p>
             <span class="comic-infor__time"><i class="far fa-clock"></i> Vừa đăng</span>
             <span class="comic-read__chapter">Chapter 369</span>
